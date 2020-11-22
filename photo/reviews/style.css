@@ -1,0 +1,75 @@
+/*Gallery Start*/
+.gallery{
+	padding: 100px 0;
+}
+
+.gallery h1, .userReview h1{
+	text-align: center;
+	padding-bottom: 50px;
+	margin-top: 150px;
+}
+
+.galleryImg{
+	position: relative;
+}
+
+.gallerySpots img{
+	width: 100%;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.gallerySpots img:hover{
+	transform: scale(1.1);
+}
+
+.gallerySpots h4{
+	width: 200px;
+	font-weight: 200;
+	padding-top: 5px;
+	text-align: center;
+	text-shadow: 1px 1px 1px #000;
+	margin-left: 20px;
+	position: absolute;
+}
+
+.gallerySpots{
+	position: relative;
+	margin-bottom: 30px;
+	box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+}
+
+img#Shwesandaw{
+	height: 170px;
+}
+/*Gallery End*/
+
+/*Users Review Start*/
+.userReview{
+	padding:50px 0;
+}
+
+.userReview img{
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	position: relative;
+	margin-bottom: -120px;
+	margin-right: 15px;
+}
+
+.review{
+	padding-bottom: 50px;
+	text-align: center;
+	box-shadow: 0 0 10px 0 rgba(0,0,100,0.2);
+}
+
+.review p{
+	padding: 50px 10px 10px 10px;
+}
+
+.review i{
+	color:orange;
+}
+/*Users Review End*/

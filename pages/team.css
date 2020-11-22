@@ -1,0 +1,34 @@
+
+/*Our member start*/
+
+.team{
+	padding-top: 100px ;
+}
+
+.teamImg img {
+	border-radius: 10px;
+	width: 250px;
+	height: 200px;
+	box-shadow: -3px 5px 12px -3px rgba(0,0,0,0.8);
+
+}
+
+.team .teamText p{
+	font-weight: lighter;
+	color: gray;
+}
+
+.team .teamText small{
+	font-weight: bold;
+}
+
+i{
+	color:orange;
+	font-size: 20px;
+	padding: 0 3px;
+}
+
+.team .teamText{
+	padding-top: 50px;
+}
+/*Our member end*/

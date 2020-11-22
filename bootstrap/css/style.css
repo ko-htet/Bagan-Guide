@@ -1,0 +1,760 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* ///////////////////////////////////////Wanna css start//////////////////////////////////////////////////// */
+.clear{
+	clear: both;
+}
+
+.Index_logo_image{
+	width:50px;
+	height: 50px;
+}
+
+.Index_logo_style{
+	margin-left:0px;
+}
+
+.Index_info{
+	background-color:#B3CDD1;
+}
+
+.Index_footer{
+	background-color:  #BDD4E7;
+}
+
+.Index_fire_Class{
+	width: 400px;
+	height: 300px;
+}
+
+.Index_middle_img{
+	position:absolute;
+  top: 1350px;
+  left: 80px;
+  font-size: 25px;
+}
+
+.Index_fes_hr{
+	width: 350px;
+	 border-width: 1px;
+	 border-color:black;
+
+}
+.Index_Ess_Img{
+	width: 200px;
+	height: 200px;
+}
+
+.Index_border{
+	border:0.5px solid;
+	border-top: none;
+	border-bottom: none;
+	border-right: none;
+
+}
+
+.Nav_Color{
+
+	background-color: #BDD4E7;
+}
+
+#Nav_menu{
+	background-color: #BDD4E7;
+}
+
+.title_font{
+	font-family:Wanna;
+	/*font-size: 50px; for tempate*/
+}
+
+.title_font2{
+	font-family:Wanna2;
+	
+}
+
+
+.Active,nav#Nav_Color div ul li a:hover
+{
+color: #5D4037;
+background-color: #8693AB;
+border-radius: 5px;
+
+
+}
+
+#title{
+	text-align: center; 
+	margin-top: 30px;
+	font-family: FLower;
+  }
+
+
+
+.About_text{
+	font-size: 20px;
+	line-height: 30px;
+	color: white;
+
+}
+
+.About_bgc{
+	background-color: #F37335;
+}
+
+
+/* ///////////////////////////////////////Wanna css end//////////////////////////////////////////////////// */
+
+
+/*temple css*/
+
+	.tem_hovereffect:hover img {
+ 		 transform: scale(0.95);
+		}
+
+	.tem_up {
+		width: 40px;
+		height: 35px;
+		border-radius: 10px;
+	}
+	.tem_up:hover {
+		background-color: #000;
+		color: #eee;
+		border-radius: 10px;
+	}
+
+	.tem_card{
+		width: 100%;
+		height: 100%;
+	}
+
+	.tem_font{
+	font-family:Wanna;
+	font-size: 25px;
+	}
+
+	.tem_font2{
+		font-family:Flower;
+	}
+
+
+	/*Temple end*/
+
+
+
+/*************************Shop by Woody**********************************/
+
+.shop_indicators_no span{
+	display: inline-block;
+	width: 23px;
+	height: 25px;
+	border: 1px solid #f5f6fa;
+	border-radius: 50% 50%;
+	text-align: center;
+	cursor: pointer;
+	background-color: #f5f6fa;
+}
+
+
+
+.shop_cart_icon_position{
+	bottom: 9% !important;
+	left: 4% !important;
+	width: 70px;
+}
+
+.shop_cart_icon_position i{
+	width: 75px;
+	height: 70px;
+	/*border: 1px solid #fff;*/
+	/*border-radius: 50% 50%;*/
+	padding: 13px;
+	/*background-color: #fff;*/
+	color: #474747;
+	cursor: pointer;
+}
+
+
+.shop_cart_icon_position span{
+	font-size: 15px;
+}
+
+
+.shop_by_category_row{
+	margin-top: 90px !important;
+}
+.shop_figure{
+	cursor: pointer;
+}
+.shop_figure img{
+	width: 160px !important;
+	height: 160px;
+	border: 1px solid #fff;
+	border-radius: 50% 50%;
+}
+
+
+.preorder_item{
+	font-size: 18px !important;
+	line-height: 20px;
+}
+.preorder_items{
+	font-size: 17px !important;
+	line-height: 40px;
+}
+
+
+
+
+
+
+
+
+
+/*************************Shop End**********************************/
+
+/* start hotel_division */
+#hotel_main{
+	width: 100%;
+	height: 100vh;
+	background-image: url(../../photo/hotel/hotel_img18.png);
+	background-size: cover;
+	background-position: top center;
+	position: relative;
+	z-index: 1;
+}
+#hotel_main .hotel h1{
+	position: absolute;
+	top: 28%;
+	width: 0ch;
+	overflow: hidden;
+	white-space: nowrap;
+	animation: hotel_ht 10s steps(23) infinite;
+	border-right: 3px solid black;
+}
+#hotel_main .hotel button{
+	position: absolute;
+	top: 40%;
+}
+.hotel_text .hotel_about h2,
+.hotel_list .hotel_list1 h2{
+	position: relative;
+	letter-spacing: 10px;
+	color: rgb(160, 160, 160);
+}
+.hotel_text .hotel_about h2 span,
+.hotel_list .hotel_list1 h2 span{
+	position: relative;
+	display: inline-block;
+}
+.hotel_text .hotel_about h2 span::before,
+.hotel_list .hotel_list1 h2 span::before{
+	content: "";
+	width: 100px;
+	height: 1px;
+	background-color: rgb(160, 160, 160);
+	display: inline-block;
+	margin: 10px 16px;
+}
+.hotel_text .hotel_about h2 span::after,
+.hotel_list .hotel_list1 h2 span::after{
+	content: "";
+	width: 100px;
+	height: 1px;
+	background-color: rgb(160, 160, 160);
+	display: inline-block;
+	margin: 10px 16px;
+}
+#HS_1,
+#HS_2,
+#HS_3{
+	box-shadow: 2px 5px 7px #535353;
+}
+button:hover{
+	box-shadow: 2px 2px 10px black;
+}
+#wavy{
+    position: relative;
+    -webkit-box-reflect: below -10px linear-gradient(transparent, rgba(0,0,0,0.2));
+}
+#wavy span{
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+    text-transform: uppercase;
+    animation: animate 2s ease-in-out infinite;
+    animation-delay: calc(0.1s * var(--i));
+}
+@keyframes animate{
+    0%
+    {
+        transform: translateY(0px);
+    }
+    20%
+    {
+        transform: translateY(-20px);
+    }
+    40%,100%
+    {
+        transform: translateY(0px);
+    }
+}
+@keyframes hotel_ht{
+	0%{
+		width: 0ch;
+	}
+	50%{
+		width: 23ch;
+	}
+}
+
+#hotel1{
+	width: 100%;
+	height: 100vh;
+	background-image: url(../../photo/hotel/aureum/hotel_img9.png);
+	background-size: cover;
+	background-position: bottom center;
+	position: relative;
+	z-index: 1;
+}
+#hotel2{
+	width: 100%;
+	height: 100vh;
+	background-image: url(../../photo/hotel/thande/hotel_img10.png);
+	background-size: cover;
+	background-position: bottom center;
+	position: relative;
+	z-index: 1;
+}
+#hotel3{
+	width: 100%;
+	height: 100vh;
+	background-image: url(../../photo/hotel/heritage/hotel_img1.png);
+	background-size: cover;
+	background-position: bottom center;
+	position: relative;
+	z-index: 1;
+}
+
+#hotel1::after,
+#hotel2::after,
+#hotel3::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    opacity: 0.4;
+    z-index: -1;
+}
+#hotel1 .hotel_list1,
+#hotel2 .hotel_list2,
+#hotel3 .hotel_list3{
+	position: absolute;
+	left: 5%;
+	top: 30%;
+	color: #ffffff;
+}
+
+/* end hotel_division */
+
+
+<<<<<<< HEAD
+/*Contact start*/
+section .contactcontainer{
+	position: relative;
+	float: left;
+}
+
+section .contactcontainer .contactinfo{
+	position: absolute;
+	top: 120px;
+	width: 350px;
+	height: 500px;
+	background-image: url(../../photo/contact.jpg);
+	z-index: 1;
+	padding: 40px;
+	justify-content: space-between;
+	box-shadow: 0 20px 20px rgba(0,0,0,0.2);
+	margin-left: 100px;
+	margin-top: 70px;
+}
+
+section .contactcontainer .contactinfo h2{
+	color: #fff;
+	font-size: 24px;
+	font-weight: 500;
+}
+
+section .contactcontainer .contactinfo .info{
+	position: relative;
+	margin: 20px 0;
+}
+
+section .contactcontainer .contactinfo .info i,
+section .contactcontainer .contactinfo .info span{
+	position: relative;
+	margin: 20px 0;
+	cursor: pointer;
+	max-width: 100%;
+	color: #fff;
+}
+
+section .contactcontainer .contactinfo .social{
+	position: relative;
+	top: 100px;
+}
+
+section .contactcontainer .contactinfo .social i{
+	position: relative;
+	padding-right: 30px;
+	color: #fff;
+}
+
+section .contactForm{
+	position: relative;
+	top: 50px;
+	left: 200px;
+	padding:50px 20px;
+	background-color: #fff;
+	width: 800px;
+	height: 100%;
+	box-shadow: 0 20px 20px rgba(0,0,0,0.5);
+	margin-bottom: 130px;
+}
+
+section .contactForm h2{
+	color: #0f3959;
+	font-size: 22px;
+	font-weight: 500px;
+	margin: 0 300px 20px;
+}
+
+section .contactForm input,section .contactForm textarea{
+	margin: 0 300px 5px;
+	padding:3px 0;
+	width: 100%;
+	font-size: 18px;
+	color: #333;
+	border:none;
+	border-bottom: 1px solid #777;
+}
+
+section .contactForm input:hover{
+	outline: 0 none;
+}
+
+section .contactForm label{
+	margin: 0 300px 5px;
+	font-size: 18px;
+	color: #333;
+}
+
+section .contactForm button{
+	position: relative;
+	cursor: pointer;
+	background: burlywood;
+	color: #fff;
+	border: none;
+	max-width: 150px;
+	padding:10px 30px;
+	margin: 0 300px 20px;
+	border-radius: 10px;
+}
+
+section .contactForm button:hover{
+	background:coral;
+	transition: 0.01s;
+}
+
+@media (max-width: 1100px){  /*media query*/
+	.contactcontainer{
+		display: none;
+	}
+	.contactForm{
+		width: 20%;
+		height: 100vh;
+		margin-left: -450px;
+	}
+}
+/*Contact end*/
+=======
+/* YounThiriNaing */
+#body{
+	text-align: center;
+	font-family: Flower;
+	font-size: 50px;
+	margin-top: 50px;
+}
+.col-6 img{
+    width: 540px;
+}
+
+div .row{
+    margin-top: 20px;
+}
+#activities {
+    padding-top: 50px;
+  }
+
+.hero-content{
+	height: 100vh;
+	background-image: url("../../photo/Image/thingstodo/boattrip.jpg");
+	background-position: top center;
+	background-size: cover;
+	background-attachment: fixed;
+	
+  }
+  
+.hero-content  {
+	text-align: center;
+	margin-top: -23px;
+  }
+.hero{
+	position: relative;
+	top: 220px;
+	width: 100%;
+	margin: 20px auto;
+}
+.hero h1{
+	color: rgb(240, 216, 216);
+	font-family: Flower;
+	font-size: 70px;
+	font-weight: bold;
+  }
+.hero hr {
+	width: 30%;
+	border-color: #f8f1f1;
+	
+	margin: 10px auto;
+  }
+.hero a {
+	color: white;
+	font-family: Flower;
+	font-size: 20px;
+	border: none;
+	
+}
+.icon-down, .icon-up{
+	font-size: 50px;
+	margin-left: 540px;
+	cursor: pointer;
+}
+  /* ----------------- */
+  .hovereffect {
+	width: 100%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	cursor: default;
+	cursor: pointer;
+	
+  }
+  
+  .hovereffect .overlay {
+	position: absolute;
+	overflow: hidden;
+	width: 80%;
+	height: 80%;
+	left: 10%;
+	top: 10%;
+	border-bottom: 1px solid #FFF;
+	border-top: 1px solid #FFF;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0,1);
+	-ms-transform: scale(0,1);
+	transform: scale(0,1);
+	cursor: pointer;
+  }
+  
+  .hovereffect:hover .overlay {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	cursor: pointer;
+  }
+  
+  .hovereffect img {
+	display: block;
+	position: relative;
+	-webkit-transition: all 0.35s;
+	transition: all 0.35s;
+	cursor: pointer;
+	
+	
+  }
+  
+  .hovereffect:hover img {
+	filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');
+	filter: brightness(0.6);
+	-webkit-filter: brightness(0.6);
+	
+  }
+  
+  .hovereffect h2 {
+	text-transform: uppercase;
+	text-align: center;
+	position: relative;
+	font-size: 17px;
+	background-color: transparent;
+	color: #FFF;
+	padding: 1em 0;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(0,-100%,0);
+	transform: translate3d(0,-100%,0);
+  }
+  
+  .hovereffect p {
+	color: #FFF;
+	padding: 0.1em 0;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(0,100%,0);
+	transform: translate3d(0,100%,0);
+	text-align: justify;
+
+  }
+  
+.hovereffect:hover p, .hovereffect:hover h2 {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+  }
+  
+#title{
+	text-align: center; 
+	margin-top: 30px;
+	font-family: FLower;
+  }
+
+.divided_by{
+	max-width:40%;
+	border-width: .1em;
+	border-color: rgb(202, 192, 192);
+	margin: 10px auto;
+	margin-bottom: 40px;
+	
+}
+
+.divided{
+	max-width: 2.0rem;
+	border-color: white;
+
+}
+/*div.row img{
+	border-radius: 20px;
+}
+/* Reviews and photos */
+
+
+/*Gallery Start*/
+.gallery{
+	padding: 100px 0;
+}
+
+.gallery h1, .userReview h1{
+	text-align: center;
+	padding-bottom: 50px;
+	margin-top: 150px;
+}
+
+.galleryImg{
+	position: relative;
+}
+
+.gallerySpots img{
+	width: 100%;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 1s;
+}
+>>>>>>> 39af928c96234dbe4ad3b9f4c10a8eab4f3d0d24
+
+
+.gallerySpots img:hover{
+	transform: scale(1.1);
+}
+
+.gallerySpots h4{
+	width: 200px;
+	/* font-weight: 200px; */
+	padding-top: 5px;
+	text-align: center;
+	/* text-shadow: 1px 1px 1px #000; */
+	margin-left: 20px;
+	position: absolute;
+	font-family: Flower;
+	font-size: 20px;
+}
+
+.gallerySpots{
+	position: relative;
+	margin-bottom: 30px;
+	box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+	border-radius: 20px;
+}
+
+img#Shwesandaw{
+	height: 170px;
+}
+
+/*Gallery End*/
+
+/*Users Review Start*/
+.userReview{
+	padding:50px 0;
+	margin-bottom: 50px;
+}
+
+.userReview img{
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	position: relative;
+	margin-bottom: -120px;
+	margin-right: 15px;
+}
+
+.review{
+	padding-bottom: 50px;
+	text-align: center;
+	box-shadow: 0 0 10px 0 rgba(0,0,100,0.2);
+}
+
+.review p{
+	padding: 50px 10px 10px 10px;
+}
+
+.review i{
+	color:orange;
+}
+
+.review h5 {
+	font-family: Flower;
+}
+/*Users Review End*/
+
+
+
+
+
+
+
+
+
